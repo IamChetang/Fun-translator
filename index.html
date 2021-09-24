@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Boiler plate</title>
+    <title>Fun translator</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -16,7 +16,24 @@
     <link rel="stylesheet" href="./Styles/style.css" />
   </head>
   <body>
-    <h1>Connect with us</h1>
+    <h1>Fun translation</h1>
+    <select id="lang">
+      <option value="yoda">Yoda</option>
+      <option value="groot">Groot</option>
+      <option value="minion">Minions</option>
+      <option value="emoji">Emoji</option>
+    </select>
+    <main>
+      <textarea
+        name="input"
+        id="input"
+        class="input"
+        placeholder="Enter text to translate"
+      ></textarea>
+      <button id="btn-translate" class="btn-translate">Translate</button>
+      <h2>Your translation is here</h2>
+      <div class="class" id="class"></div>
+    </main>
 
     <script src="./scripts/script.js"></script>
   </body>
